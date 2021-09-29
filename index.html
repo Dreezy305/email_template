@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: "Noto Sans";
+            height: 100vh;
+        }
+        table {
+            font-family: "Noto Sans";
+        }
+        .provider1 {
+            width: 190px;
+            height: 200px;
+            background-image: url(/image/provider1.png);
+            background-repeat: no-repeat;
+            background-size: 190px 200px;   
+        }
+        .provider2 {
+            background-image: url(/image/client.png);
+            background-repeat: no-repeat;
+            background-size: 190px 200px;
+            width: 190px;
+            height: 200px;
+        }
+        .provider3 {
+            background-image: url(/image/provider2.png);
+            background-repeat: no-repeat;
+            background-size: 190px 200px;
+            width: 190px;
+            height: 200px;
+        }
+        
+        .provider {
+            font-family: "Noto Sans";
+            font-weight: bolder;
+            color: #F3F3F3;
+            background-color: #91C02B;
+            width: 30%;
+            height: 100%px;
+            padding-right: 50px;
+            margin: auto;
+            font-size: xx-large;
+        }
+        .services {
+            font-size: xx-large;
+            font-weight: bolder;
+        }
+        .options {
+            font-family: "Noto Sans";
+            font-size: x-large;
+        }
+        @media screen and ( max-width:576px) {
+            body {
+                height: auto;
+            }
+            .content {
+                font-size: 25px;
+            }
+            .footer-note {
+                font-size: 25px;
+                justify-content: center;
+            }
+            .download {
+                font-size: 22px;
+            }
+        }
+        
+    </style>
+    <title>BookMe Email Template </title>
+</head>
+
+<body>
+    
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+        <tbody>
+            <!-- HEADER BANNER -->
+            <tr>
+                <td align="center">
+                    <table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td class="d-flex flex-row mt-5 gx-1 justify-content-between">
+                                    <div class="d-flex flex-row" >
+                                    <img class="img-fluid" src="./image/bookme.png" alt="bookme" width="120" />
+                                    <div class="border-2 border-end ms-2 me-2" style="border-left:#2460D8"></div>
+                                    <img class="img-fluid" src="./image/lsetf.png" alt="lsetf" width="120"/>
+                                </div>
+                                <div class="d-flex flex-row" style="cursor: pointer;">
+                                    <a href="#">
+                                    <img class="img-fluid me-3 ms-1 pt-1" src="./image/instagram.png" alt="logo" style="width: 25px; height: 25px" /></a>
+                                    <a href="#">
+                                    <img class="img-fluid ms-2 me-3 pt-1" src="./image/twitter.svg" alt="logo" /></a>
+                                    <a href="#">
+                                    <img class="img-fluid ms-2 me-0 pt-1" src="./image/facebook.svg" alt="logo" /></a>
+                                </div>
+                                </td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- END HEADER BANNER -->
+            
+            <!-- EMAIL CONTENT GOES HERE (REMOVE THE LOREM TEXT AND PUT YOUR CONTENT THERE) -->
+            <tr>
+                <td align="center">
+                    <table class="col-600" width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-left:10px; margin-right:10px; border-left: 0px solid #dbd9d9; border-right: 0px solid #dbd9d9;">
+                        <tbody>
+                            <tr>
+                                <td height="35"></td>
+                            </tr>
+                            <tr>
+                                <td align="start" style="font-family: 'Noto Sans', sans-serif; font-size:20px; font-weight: normal; color:#2a3a4b; height: auto;">
+                                    <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quo quia consequuntur incidunt fugit eaque officia labore tempore, eveniet reprehenderit autem, ullam numquam doloribus explicabo perspiciatis magnam, optio aspernatur totam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aspernatur odio corporis eum delectus quos quam possimus! Quod sapiente sequi neque sit. Sunt sed provident id possimus ad vel dignissimos.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- END EMAIL CONTENT -->
+            
+
+            <!-- PLAYSTORE AND APP STORE -->
+            <tr>
+                
+                <td align="center" bgcolor="">
+                    <table align="center" class="col-600" width="600" border="0" cellspacing="0" cellpadding="0" style="background-color: #637996;">
+                        <tbody  style="background-color: #637996;">
+                            <tr>
+                                <td height="auto">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <p class="mt-4 fw-bold text-light download" font-family: "Noto Sans">Download Our App</p>
+                                        <a href="#">
+                                        <img src="image/appstore.png" class="img-fluid pt-3 pb-3 px-4" alt="app_store" height="150" width="180"/></a>
+                                        <a href="#">
+                                        <img src="image/google.png" class="img-fluid pt-1 pb-1" alt="play_store" height="150" width="170" /></a>
+                                    </div>
+                                    
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </td>   
+            </tr>
+            <!-- END PLAYSTORE AND APP STORE -->
+
+            <!-- CHOOSE FROM -->
+            <tr>
+                <td align="center" bgcolor="">
+                    <table align="center" class="col-600" width="600" border="0" cellspacing="0" cellpadding="0"
+                        style="background-color: #91C02B;">
+                        <tbody  style="background-color: #91C02B;">
+
+                            <tr>
+                                <td height="auto">
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <p class="mt-3 px-3 pe-3 fw-bolder text-light services">Over 1000 services to choose from.</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </td>
+            </tr>
+            <!-- END CHOOSE FROM -->
+
+
+            <!-- GALLERY -->
+            <tr>
+                <td align="center" bgcolor="">
+                    <table align="center" class="col-600" width="600" border="0" cellspacing="0" cellpadding="0"
+                        style="background-color: #1D2F47;">
+                        <tbody style="background-color: #1D2F47;">
+                            <tr>
+                                <td height="auto">
+                                    <div class="d-flex flex-row justify-content-between" >
+                                        <div class="provider1 position-relative">
+                                            <p class="provider position-absolute bottom-0 end-0">01.</p>
+                                        </div>
+                                        <div class="provider2 position-relative">
+                                            <p class="provider position-absolute bottom-0 end-0">02.</p>
+                                        </div>
+                                        <div class="provider3 position-relative">
+                                            <p class="provider position-absolute bottom-0 end-0">03.</p>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- END GALLERY -->
+
+            <!-- FOOTER OPTIONS  -->
+            <tr>
+                <td align="center" bgcolor="">
+                    <table align="center" class="col-600" width="600" border="0" cellspacing="0" cellpadding="0"
+                        style="background-color: #1D2F47;">
+                        <tbody style="background-color: #1D2F47;">
+                            <tr>
+                            <td height="auto">
+                                <div class="options d-flex flex-row justify-content-around text-light mt-2">
+                                    <p class="fw-bold">Unsubscribe</p>
+                                    <p class="fw-bold">Preferences</p>
+                                    <p class="fw-bold">Privacy Policy</p>
+                                </div>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- END FOOTER OPTIONS-->
+
+
+            <!-- FOOTER NOTE -->
+            <tr>
+                <td align="center" bgcolor="">
+                    <table align="center" class="col-600" width="600" border="0" cellspacing="0" cellpadding="0"
+                    style="background-color: #1D2F47;">
+                        <tbody style="background-color: #1D2F47;">
+                            <tr>
+                            <td height="auto">
+                                <p class="fw-bold mx-auto ms-4 me-4 footer-note" style="color:#637996">BookMe connects you to professional service providers who ensure the smooth
+                                running of your business at your
+                            convenience.</p>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- END FOOTER NOTE -->
+        </tbody>
+    </table>
+
+
+    <!-- #1D2F47 -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
