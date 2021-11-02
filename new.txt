@@ -1,0 +1,70 @@
+<div className={`d-inline-block ${styles.extrainfo}`}>
+                        <div
+                          style={{
+                            position: "absolute",
+                            top: "-120px !important",
+                          }}
+                        >
+                          <Tooltip position="bottomLeft" withIcon={false}>
+                            <div
+                              className="d-block"
+                              style={{ width: "inherit" }}
+                            >
+                              <div
+                                style={{
+                                  fontSize: "20px !important",
+                                  paddingTop: "30px !important",
+                                  paddingLeft: "30px !important",
+                                  width: "200px",
+                                }}
+                              >
+                                50k - 500k - 0.25%
+                              </div>
+                              <br />
+
+                              <div
+                                style={{
+                                  fontSize: "20px !important",
+                                  paddingTop: "25px !important",
+                                  paddingLeft: "30px !important",
+                                  width: "200px",
+                                }}
+                              >
+                                500k - 1.5M - 0.16%
+                              </div>
+                              <br />
+                              <div
+                                style={{
+                                  fontSize: "20px !important",
+                                  paddingTop: "23px !important",
+                                  paddingLeft: "28px !important",
+                                  width: "200px",
+                                }}
+                              >
+                                1.6M - 4.5M - 0.13%
+                              </div>
+                              <br />
+                              <div
+                                style={{
+                                  fontSize: "18px !important",
+                                  paddingTop: "22px !important",
+                                  paddingLeft: "12px !important",
+                                  width: "200px",
+                                }}
+                              >
+                                4.5M upward - premium
+                              </div>
+                              <br />
+                              <div
+                                style={{
+                                  fontSize: "20px !important",
+                                  paddingTop: "20px !important",
+                                  paddingLeft: "28px !important",
+                                  width: "200px",
+                                }}
+                              >
+                                0 - 50k - free
+                              </div>
+                            </div>
+                          </Tooltip>
+                        </div>
